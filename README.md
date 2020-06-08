@@ -1,3 +1,3 @@
-# weed_detection using MaskRCNN
+# Weed Detection using MaskRCNN
 
 files
