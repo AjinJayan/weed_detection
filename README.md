@@ -12,10 +12,16 @@ images properly we have used [VGG Image Annotator](http://www.robots.ox.ac.uk/~v
 
 [Tensorboard Logs](https://drive.google.com/file/d/1fJsdFJwFsfmwLA6Yy3TZVB4pOTVRa1F6/view?usp=sharing)
 
-
 inspect_weed_data.ipynb  ---- This notebook visualizes the different pre-processing steps to prepare the training data.
-weed_detection1.ipynb    ---- This notebook goes in depth into the steps performed to detect and segment objects. It provides          visualizations of every step of the pipeline.
+weed_detection1.ipynb    ---- This notebook goes in depth into the steps performed to detect and segment objects. It provides visualizations of every step of the pipeline.
+
 ### Citation
 + [MaskRCNN Paper](https://arxiv.org/pdf/1703.06870.pdf)
 + [Mask_RCNN GitHub](https://github.com/matterport/Mask_RCNN)
 + [FasterRCNN Paper](https://arxiv.org/pdf/1504.08083.pdf)
+
+
+
+
+
+
