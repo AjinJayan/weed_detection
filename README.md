@@ -6,4 +6,7 @@
 
 
 inspect_weed_data.ipynb  ---- This notebook visualizes the different pre-processing steps to prepare the training data.
-weed_detection1.ipynb    ---- This notebook goes in depth into the steps performed to detect and segment objects. It provides          visualizations of every step of the pipeline.
+
+weed_detection1.ipynb    ---- This notebook goes in depth into the steps performed to detect and segment objects. It provides          v  visualizations of every step of the pipeline.
+
+trained_weights_Link     ---- drive link to already trained weights 
