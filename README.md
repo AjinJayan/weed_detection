@@ -1,6 +1,10 @@
 # Weed Detection using MaskRCNN
 
 You can read a detailed report of this project [here](https://docs.google.com/document/d/1p-Yi2SdHGUgQ37hgAk6Tu-bumZAodTc6Yrn12DXc0fc/edit?usp=sharing)
+### Update 1.1 11/06/2020
+We have re-annotated the images with few bug fix and improvements and have addedd a second class to the dataset
+the model now can differentiate between both weed and crop.
+
 
 A model based on transfer leaning to classify weeds from other plants and soil.This model does instace segmentaion which give pixel level accuracy.So it can be deployed with a camera attached to UAV's and ground based robots to spray pesticides with pin point accuracy
 Here is an example:
