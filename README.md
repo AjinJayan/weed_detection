@@ -49,7 +49,7 @@ tensorboard --logdir=logs
 ```
 
 
-This project was made as part of induction to Robotics Interest Group(RIG),National Institute of Technology,Calicut by Ajin J and Abel C Dixon. 
+This project was made as part of induction to Robotics Interest Group(RIG),National Institute of Technology,Calicut by [Ajin J](mailto:akhilajin944@gmail.com?subject=[GitHub]%20Weed%20Detection) and [Abel C Dixon](mailto:abelcheruvathoor@gmail.com?subject=[GitHub]%20Weed%20Detection). 
 
 ### Citation
 + [MaskRCNN Paper](https://arxiv.org/pdf/1703.06870.pdf)
