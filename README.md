@@ -1,16 +1,21 @@
 # Weed Detection using MaskRCNN
 
-You can read a detailed report of this project [here](https://docs.google.com/document/d/1p-Yi2SdHGUgQ37hgAk6Tu-bumZAodTc6Yrn12DXc0fc/edit?usp=sharing)
+You can read a detailed report of this project [here](https://docs.google.com/document/d/1p-Yi2SdHGUgQ37hgAk6Tu-bumZAodTc6Yrn12DXc0fc/edit?usp=sharing) and a video tutorial [here](https://www.youtube.com/watch?v=JAQFvAdFhNs).
+Also don't forget to star this repository if this project helped you.
+
 ### Update Version 1.1 11/06/2020
-We have re-annotated the images with few bug fix and improvements and have addedd a second class to the dataset
+We have re-annotated the images with few bug fix and improvements in perfomancy and have added a second class to the dataset
 the model now can differentiate between both weed and crop.
 
 Number of classes:2(crop and weed)+1(background)
 
+Here is an example :
+
+<img src="results/185.png" width="400" height="400">
+
 Updates were made in the existing json file and weed.py using VIA tools that we used earlier adding one more class too
 
-
-### Version 1.0
+### Version 1.0 
 A model based on transfer leaning to classify weeds from other plants and soil.This model does instace segmentaion which give pixel level accuracy.So it can be deployed with a camera attached to UAV's and ground based robots to spray pesticides with pin point accuracy
 Here is an example:
 
@@ -42,6 +47,9 @@ For visualising in system.You must have tensorflow installed and place the log f
 ```
 tensorboard --logdir=logs
 ```
+
+
+This project was made as part of induction to Robotics Interest Group(RIG),National Institute of Technology,Calicut by Ajin J and Abel C Dixon. 
 
 ### Citation
 + [MaskRCNN Paper](https://arxiv.org/pdf/1703.06870.pdf)
